@@ -30,7 +30,7 @@ const useContext=({clave,edad})=>{
         }
     }
 };
-//Usando desestructuracion del objeto para obtener las propiedades especificadas
+//Usando desestructuracion del objeto para obtener propiedades especificas de un objeto
 //En el caso de latlong se esta usando una desestructuracion anidada de objeto
 const {nombreClave,anios,latlong:{latitud,longitud}}=useContext(persona)
 console.log(nombreClave,anios);
